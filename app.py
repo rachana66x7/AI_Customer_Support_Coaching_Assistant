@@ -20,7 +20,7 @@ import edge_tts
 # CONFIG
 # ============================================================
 APP_NAME = "AI Customer Support Assistant"
-DB_PATH = "/content/customer_support_assistant.db"
+DB_PATH = "customer_support_assistant.db"
 MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
 WHISPER_MODEL = "whisper-large-v3-turbo"
 
